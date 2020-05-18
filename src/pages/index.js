@@ -1,3 +1,11 @@
-import React from "react"
+import React from 'react'
+import Nav from '../components/nav'
 
-export default () => <div>Hello world!</div>
+export default () => {
+  return (
+    <>
+      <Nav />
+      <h1>Hail, Hordes of Havamal!</h1>
+    </>
+  )
+}
