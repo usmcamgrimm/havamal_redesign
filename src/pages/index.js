@@ -1,11 +1,12 @@
-import React from 'react'
-import Nav from '../components/nav'
+import React from "react"
+import Nav from "../components/nav"
+import Header from "../components/header"
 
 export default () => {
   return (
     <>
       <Nav />
-      <h1>Hail, Hordes of Havamal!</h1>
+      <Header headerText="Hail, Hordes of Havamal!" />
     </>
   )
 }

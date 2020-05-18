@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react"
+import Nav from "../components/nav"
+import Header from "../components/header"
 
-export default function Music () {
+export default function Music() {
   return (
     <div>
-      <h1>The Music of Havamal</h1>
+      <Nav />
+      <Header headertext="The Music of Havamal" />
     </div>
   )
 }
