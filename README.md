@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://havamal.surge.sh">
+    <img alt="Hamal" src="https://i.imgur.com/laowgoL.png" />
   </a>
 </p>
 <h1 align="center">
