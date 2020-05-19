@@ -6,7 +6,7 @@ export default function Music() {
   return (
     <div>
       <Nav />
-      <Header headertext="The Music of Havamal" />
+      <Header headerText="The Music of Havamal" />
     </div>
   )
 }
