@@ -1,0 +1,23 @@
+ul {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        display: none;
+    }
+}

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import navStyle from "./nav.module.css"
 
 export default function Nav() {
   return (

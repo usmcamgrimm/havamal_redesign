@@ -9,10 +9,10 @@ export default () => {
   return (
     <>
       <Nav />
-      <Header headerText="Hail, Hordes of Havamal!" />
       <Container>
         <img src={havamal} className="logo" alt="Havamal band logo" />
       </Container>
+      <Header headerText="Hail, Hordes of Havamal!" />
     </>
   )
 }
