@@ -1,4 +1,7 @@
 h1 {
     color: #66add9;
-    text-shadow: 0 3px 6px #000000;
+    text-shadow: 0 4px 8px #000000;
+    font-family: Yggdrasil;
+    font-size: 3rem;
+    letter-spacing: 2px;
 }

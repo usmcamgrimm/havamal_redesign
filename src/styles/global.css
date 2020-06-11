@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mirza:wght@500&family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Yggdrasil";
+    src: url('../../static/fonts/Yggdrasil.woff');
+}
+
 html {
     background-color: #030303;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -5,9 +12,15 @@ html {
     background-size: cover;
     min-height: 100vh;
     text-align: center;
+    font-size: 16px;
 }
 
 .logo {
     max-width: 90%;
     height: auto;
+}
+
+p {
+    color: #ffffff;
+    font-family: Roboto;
 }
