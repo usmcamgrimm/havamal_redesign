@@ -17,9 +17,6 @@ export default function Nav() {
       <li>
         <Link to="/contact/">Contact</Link>
       </li>
-      <li>
-        <Link to="/disclaimer/">Disclaimer</Link>
-      </li>
     </ul>
   )
 }
