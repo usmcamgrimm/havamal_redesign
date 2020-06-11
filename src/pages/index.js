@@ -12,7 +12,7 @@ export default () => {
       <Container>
         <img src={havamal} className="logo" alt="Havamal band logo" />
       </Container>
-      <Header headerText="Hail, Hordes of Havamal!" />
+      <h1>Hail, Hordes of Havamal!</h1>
     </>
   )
 }

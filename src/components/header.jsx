@@ -2,5 +2,5 @@ import React from "react"
 import "./header.module.css"
 
 export default function Header(props) {
-  return <h1>{props.headerText}</h1>
+  return <h2>{props.headerText}</h2>
 }
