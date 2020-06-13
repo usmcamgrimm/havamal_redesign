@@ -30,5 +30,6 @@ h1 {
     text-shadow: 0 4px 8px #000000;
     font-family: Yggdrasil;
     font-size: 3rem;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    text-align: center;
 }
