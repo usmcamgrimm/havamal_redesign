@@ -1,4 +1,4 @@
-type Song {
+type Songs {
   songTitle: String!
   songNum: Int!
   albumTitle: String!
@@ -6,6 +6,6 @@ type Song {
 }
 
 type Query {
-  allSongs: [Song!]
-  songsByNumOnAlbum(albumSongNum: Int!): [Song!]
+  allSongs: [Songs!]
+  songsByNumOnAlbum(albumSongNum: Int!): [Songs!]
 }
