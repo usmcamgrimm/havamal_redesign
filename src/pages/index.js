@@ -13,8 +13,8 @@ export default () => {
       <MobNav />
       <Container>
         <img src={havamal} className="logo" alt="Havamal band logo" />
+        <h1>Hail, Hordes of Havamal!</h1>
       </Container>
-      <h1>Hail, Hordes of Havamal!</h1>
     </>
   )
 }
