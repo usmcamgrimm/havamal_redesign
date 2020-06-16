@@ -4,7 +4,7 @@ import "./nav.module.css"
 
 export default function Nav() {
   return (
-    <ul>
+    <ul className="navBar">
       <li>
         <Link to="/">Home</Link>
       </li>
