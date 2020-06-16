@@ -1,7 +1,6 @@
 import React from "react"
 import Nav from "../components/nav"
 import MobNav from "../components/mobNav"
-import Header from "../components/header"
 import Container from "../components/container"
 import havamal from "../images/havamal_bg.png"
 import "../styles/global.css"
