@@ -33,3 +33,13 @@ h1 {
     letter-spacing: 4px;
     text-align: center;
 }
+
+@media screen and (min-width: 1025px) {
+    #mobNav {
+        display: none;
+    }
+
+    .mobFloat {
+        display: none;
+    }
+}

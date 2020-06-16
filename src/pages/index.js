@@ -1,5 +1,6 @@
 import React from "react"
 import Nav from "../components/nav"
+import MobNav from "../components/mobNav"
 import Header from "../components/header"
 import Container from "../components/container"
 import havamal from "../images/havamal_bg.png"
@@ -9,6 +10,7 @@ export default () => {
   return (
     <>
       <Nav />
+      <MobNav />
       <Container>
         <img src={havamal} className="logo" alt="Havamal band logo" />
       </Container>

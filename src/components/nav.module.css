@@ -29,8 +29,34 @@ li a:hover {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
+.axes {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     ul {
+        display: none;
+    }
+
+    .axeBtn {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .axeBtn {
+        width: 84px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .axeBtn {
+        width: 108px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    Nav {
         display: none;
     }
 }
