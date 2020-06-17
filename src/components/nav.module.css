@@ -46,12 +46,14 @@ li a:hover {
 @media screen and (min-width: 601px) {
     .axeBtn {
         width: 84px;
+        margin-top: 75px;
     }
 }
 
 @media screen and (min-width: 769px) {
     .axeBtn {
         width: 108px;
+        margin-top: 90px;
     }
 }
 
