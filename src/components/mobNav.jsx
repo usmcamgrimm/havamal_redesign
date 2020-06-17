@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./nav.module.css"
+import mobStyles from "./nav.module.css"
 import axes from "../images/axes.png"
 
 export default function Nav() {
@@ -32,7 +32,7 @@ export default function Nav() {
         <img
           src={axes}
           alt="crossed axes button"
-          className="axeBtn"
+          className={mobStyles.axeBtn}
           width="60"
           height="auto"
         />
