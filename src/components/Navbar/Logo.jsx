@@ -3,7 +3,7 @@ import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 
 const Logo = () => {
-  const data = useStatucQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
       file(name: { eq: "axes" }, extension: { eq: "png" }) {
         childImageSharp {

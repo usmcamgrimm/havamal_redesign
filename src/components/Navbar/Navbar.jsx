@@ -9,7 +9,7 @@ const Navbox = styled.div``
 const Axes = styled.div``
 
 const Navbar = () => {
-  const [NavbarOpen, setNavbarOpen] = useState(false)
+  const [navbarOpen, setNavbarOpen] = useState(false)
 
   return (
     <Navigation>
