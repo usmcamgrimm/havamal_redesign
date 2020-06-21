@@ -1,12 +1,27 @@
 import React, { useState } from "react"
 import NavLinks from "./NavLinks"
 import styled from "styled-components"
+import "../../images/axes.png"
 
 const Navigation = styled.nav`
   background-color: rgb(0, 85, 155);
-  height: 10vh;
+  height: 8vh;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
   margin: 0 auto;
   padding: 0 5vw;
+  z-index: 2;
+  align-self: center;
+
+  @media screen and (max-width: 768px) {
+    position: sticky;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+  }
 `
 const Toggle = styled.div`
   display: none;
@@ -36,7 +51,8 @@ const Navbox = styled.div`
     left: ${props => (props.open ? "-100%" : "0")};
   }
 `
-const Axes = styled.div`
+const Switch = styled.div`
+  bakground-image: url("../../images/axes.png");
   max-width: 96px;
   height: auto;
   align-self: center;
@@ -56,7 +72,7 @@ const Navbar = () => {
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
       >
-        {navbarOpen ? <Axes open /> : <Axes />}
+        {navbarOpen ? <Switch open /> : <Switch />}
       </Toggle>
       {navbarOpen ? (
         <navbox>
