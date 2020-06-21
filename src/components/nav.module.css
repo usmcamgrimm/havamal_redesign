@@ -33,6 +33,13 @@ li a:hover {
     display: none;
 }
 
+.navOverlay {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 @media screen and (max-width: 600px) {
     ul {
         display: none;
@@ -40,6 +47,19 @@ li a:hover {
 
     .axeBtn {
         margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navOverlay {
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        justify-content: flex-start;
+        padding-top: 10vh;
+        background-color: #fff;
+        transition: all 0.3s ease-in;
+        top: 8vh;
     }
 }
 
