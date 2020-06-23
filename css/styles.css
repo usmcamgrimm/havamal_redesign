@@ -11,3 +11,25 @@ html {
     text-align: center;
     font-size: 16px;
 }
+
+.container {
+    width: 90vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Yggdrasil';
+    color: #66add9;
+    text-shadow: 0 4px 8px #000000;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-align: center;
+}
