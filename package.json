@@ -1,0 +1,26 @@
+{
+  "name": "havamal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmcamgrimm/havamal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmcamgrimm/havamal/issues"
+  },
+  "homepage": "https://github.com/usmcamgrimm/havamal#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
