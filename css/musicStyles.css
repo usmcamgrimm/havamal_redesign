@@ -2,6 +2,15 @@ html {
     overflow-y: scroll;
 }
 
+.albumContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#album {
+    padding-top: 1rem;
+}
+
 .songList {
     max-height: 0;
     overflow: hidden;
@@ -14,4 +23,13 @@ html {
 
 .albumContainer li.open .songList {
     max-height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .albumContainer {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }

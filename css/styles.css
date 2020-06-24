@@ -41,17 +41,3 @@ h2 {
     color: #fefefe;
     text-shadow: 0 4px 8px #000000;
 }
-
-.albumContainer {
-    display: flex;
-    justify-content: space-around;
-}
-
-@media screen and (max-width: 600px) {
-    .albumContainer {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-    }
-}
