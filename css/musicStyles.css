@@ -1,0 +1,17 @@
+html {
+    overflow-y: scroll;
+}
+
+.songList {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+.songList li {
+    padding: 1rem;
+}
+
+.albumContainer li.open .songList {
+    max-height: 300px;
+}
