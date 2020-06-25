@@ -17,6 +17,9 @@
 
 .songList li {
     padding: 10px;
+    font-family: Mirza;
+    color: #66add9;
+    font-size: 1.5rem;
 }
 
 .albumContainer li.open .songList {
