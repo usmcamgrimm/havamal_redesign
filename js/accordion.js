@@ -1,16 +1,16 @@
-const albumAccordion = document.querySelector('.albumContainer');
-const songs = document.querySelectorAll('.songList');
-const albums = document.querySelectorAll('.album');
+const accordion = document.querySelector('.albumContainer');
+const items = document.getElementById('list');
+const albums = accordion.querySelectorAll('album');
 
-function toggleAlbumAccordion() {
+function toggleAccordion() {
     const thisItem = this.parentNode;
-    songs.forEach(song => {
-        if (thisItem == song) {
+    items.forEach(item => {
+        if (thisItem == item) {
             thisItem.classList.toggle('open');
             return;
         }
-        song.classList.remove('open');
+        item.classList.remove('open');
     })
 }
 
-albums.forEach(album => album.addEventListener('click', toggleAlbumAccordion));
+albums.forEach(album => album.addEventListener('click', toggleAccordion));
