@@ -1,12 +1,14 @@
 
 .accordion {
     padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .album {
     cursor: pointer;
     padding: 20px;
-    position: relative;
 }
 
 .songList {
