@@ -1,35 +1,24 @@
-html {
-    overflow-y: scroll;
-}
-
 .albumContainer {
-    display: flex;
-    justify-content: space-around;
+    padding: 30px;
 }
 
-#album {
-    padding-top: 1rem;
+.album {
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
 }
 
 .songList {
     max-height: 0;
     overflow: hidden;
+    padding: 0;
     transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
 }
 
 .songList li {
-    padding: 1rem;
+    padding: 10px;
 }
 
 .albumContainer li.open .songList {
     max-height: 300px;
-}
-
-@media screen and (max-width: 600px) {
-    .albumContainer {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-    }
 }
