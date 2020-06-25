@@ -1,4 +1,5 @@
-.albumContainer {
+
+.accordion {
     padding: 30px;
 }
 
@@ -15,13 +16,13 @@
     transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
 }
 
-.songList li {
+.songList p {
     padding: 10px;
     font-family: Mirza;
     color: #66add9;
     font-size: 1.5rem;
 }
 
-.albumContainer li.open .songList {
+.accordion li.open .songList {
     max-height: 300px;
 }

@@ -1,6 +1,6 @@
-const accordion = document.querySelector('.albumContainer');
-const items = document.getElementById('list');
-const albums = accordion.querySelectorAll('album');
+const accordion = document.querySelector('.accordion');
+const items = accordion.querySelectorAll('li');
+const albums = accordion.querySelectorAll('.album');
 
 function toggleAccordion() {
     const thisItem = this.parentNode;
