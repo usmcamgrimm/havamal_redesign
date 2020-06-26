@@ -10,8 +10,13 @@
 
 ul {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 2rem;
+}
+
+li {
+    display: flex;
 }
 
 .songList {
