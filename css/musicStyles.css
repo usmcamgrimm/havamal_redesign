@@ -1,3 +1,5 @@
+.wrapper {}
+
 .accordion {
     padding: 30px;
     display: flex;
@@ -30,9 +32,18 @@ li {
     padding: 10px;
     font-family: Mirza;
     color: #66add9;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    text-decoration: underline;
 }
 
 .accordion li.open .songList {
     max-height: 300px;
+}
+
+
+.songList li {
+    font-family: Mirza;
+    font-size: 1.5rem;
+    color: #66add9;
+    padding: 0 4px 0 4px;
 }
