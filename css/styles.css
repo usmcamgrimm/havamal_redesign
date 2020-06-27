@@ -1,6 +1,9 @@
 @font-face {
-    font-family: 'Yggdrasil';
-    src: url(../resources/'Yggdrasil.woff') format('woff');
+    font-family: 'yggdrasilregular';
+    src: url('../resouces/yggdrasil-webfont.woff2') format('woff2'),
+        url('../resources/yggdrasil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
@@ -26,7 +29,7 @@ html {
 }
 
 h1 {
-    font-family: 'Yggdrasil';
+    font-family: 'yggdrasilregular';
     color: #66add9;
     text-shadow: 0 4px 8px #000000;
     font-size: 3rem;
@@ -118,7 +121,7 @@ li a:hover {
 
     .navLinks a {
         text-decoration: none;
-        font-family: 'Yggdrasil';
+        font-family: 'yggdrasilregular';
         font-size: 3rem;
         color: rgb(0, 85, 155);
         text-align: center;
