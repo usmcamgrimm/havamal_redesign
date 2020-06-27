@@ -82,3 +82,100 @@ li .navLinks:hover {
 li a:hover {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
+
+/* !Mobile Nav Components */
+@media screen and (min-width: 1025px) {
+
+    .axeBtn,
+    .navOverlay {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        display: none;
+    }
+
+    .navOverlay {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        background-color: rgba(3, 3, 3, 0.9);
+        overflow-y: hidden;
+        transition: 0.3s ease;
+    }
+
+    .navLinks {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .navLinks a {
+        text-decoration: none;
+        font-family: 'Yggdrasil';
+        font-size: 3rem;
+        color: rgb(0, 85, 155);
+        text-align: center;
+        display: block;
+        transition: 0.3s ease-out;
+    }
+
+    .navOverlay .closeBtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+        color: #fefefe;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .axes {
+        margin: 0 auto;
+        padding-top: 40px;
+        width: 84px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    .axes {
+        margin: 0 auto;
+        padding-top: 60px;
+        width: 108px;
+    }
+
+    .navOverlay a {
+        font-size: 3.5rem;
+    }
+
+    .navOverlay .closeBtn {
+        top: 60px;
+        right: 115px;
+        font-size: 96px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .axes {
+        margin: 0 auto;
+        padding-top: 75px;
+        width: 125px;
+    }
+
+    .navOverlay a {
+        font-size: 4rem;
+    }
+
+    .navOverlay .closeBtn {
+        top: 80px;
+        right: 150px;
+        font-size: 108px;
+    }
+}

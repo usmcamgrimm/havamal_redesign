@@ -10,16 +10,32 @@
 </head>
 
 <body>
+    <section id="fullNav">
+        <nav>
+            <ul class="navList">
+                <li class="navLinks"><a href="./index.html">Home</a></li>
+                <li class="navLinks"><a href="./music.html">Music</a></li>
+                <li class="navLinks"><a href="./photos.html">Photos</a></li>
+                <li class="navLinks"><a href="./about.html">About</a></li>
+                <li class="navLinks"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
 
-    <nav>
-        <ul class="navList">
-            <li class="navLinks"><a href="./index.html">Home</a></li>
-            <li class="navLinks"><a href="./music.html">Music</a></li>
-            <li class="navLinks"><a href="./photos.html">Photos</a></li>
-            <li class="navLinks"><a href="./about.html">About</a></li>
-            <li class="navLinks"><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <section id="mobileNav">
+        <div id="mobNav" class="navOverlay">
+            <a href=javascript:void(0) class="closeBtn" onclick="closeNav()">&times;</a>
+            <div class="navLinks">
+                <a href="./index.html">Home</a>
+                <a href="./music.html">Music</a>
+                <a href="./photos.html">Photos</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>
+
+        <span class="axeBtn" onclick="openNav()"><img src="./resources/axes.png" class="axes" /></span>
+    </section>
 
     <section id="welcome">
         <div class="container">
@@ -28,6 +44,7 @@
         </div>
     </section>
 
+    <script src="./js/nav.js"></script>
 </body>
 
 </html>
