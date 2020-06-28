@@ -1,5 +1,4 @@
-.wrapper {}
-
+/*
 .accordion {
     padding: 30px;
     display: flex;
@@ -46,4 +45,76 @@ li {
     font-size: 1.5rem;
     color: #66add9;
     padding: 0 4px 0 4px;
+}
+*/
+
+body {
+    background-color: #212121;
+    /* !TEMPORARY */
+}
+
+.albumContainer {
+    padding: 1rem 4rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0 10rem;
+}
+
+.albumTFY {
+    max-width: 450px;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+}
+
+.albumCOTN {
+    max-width: 450px;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+}
+
+.albumInfo {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: flex-start;
+}
+
+h3 {
+    font-family: Mirza;
+    color: #66add9;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+h4 {
+    font-family: Roboto;
+    color: #fefefe;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #fefefe;
+    cursor: crosshair;
+}
+
+hr {
+    width: 75%;
+    background-color: #c0c0c0;
+}
+
+.trackList {
+    color: #fefefe;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+ol li {
+    padding-left: 6px;
 }
