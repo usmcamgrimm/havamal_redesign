@@ -16,6 +16,34 @@
 </head>
 
 <body>
+
+    <section id="fullNav">
+        <nav>
+            <ul class="navList">
+                <li class="navLinks"><a href="./index.html">Home</a></li>
+                <li class="navLinks"><a href="./music.html">Music</a></li>
+                <li class="navLinks"><a href="./photos.html">Photos</a></li>
+                <li class="navLinks"><a href="./about.html">About</a></li>
+                <li class="navLinks"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="mobileNav">
+        <div id="mobNav" class="navOverlay">
+            <a href=javascript:void(0) class="closeBtn" onclick="closeNav()">&times;</a>
+            <div class="navLinks">
+                <a href="#">Home</a>
+                <a href="#">Music</a>
+                <a href="#">Photos</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+        <span class="axeBtn" onclick="openNav()"><img src="./resources/axes.png" class="axes" /></span>
+    </section>
+
     <h2>Music</h2>
 
     <section class="album">
