@@ -118,3 +118,127 @@ hr {
 ol li {
     padding-left: 6px;
 }
+
+@media screen and (max-width: 600px) {
+    h2 {
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    body {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .album {
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .albumContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+    }
+
+    .albumTFY {
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 5rem;
+        padding: 12px 0;
+    }
+
+    .albumCOTN {
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+        text-align: center;
+        display: flex;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    hr {
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+
+    .trackList {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    .albumContainer {
+        margin: 0 auto;
+        padding: 10px;
+        height: 450px;
+    }
+
+    .albumTFY {
+        max-width: 400px;
+        height: auto;
+    }
+
+    .albumCOTN {
+        max-width: 400px;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .album {
+        margin-top: 2rem;
+    }
+
+    .albumContainer {
+        margin: 0 4rem;
+        padding: 10px;
+        height: 450px;
+    }
+
+    .albumTFY {
+        max-width: 450px;
+        height: auto;
+    }
+
+    .albumCOTN {
+        max-width: 450px;
+        height: auto;
+    }
+
+    h2 {
+        margin: 6px auto;
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+}
