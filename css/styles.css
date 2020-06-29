@@ -145,6 +145,10 @@ li a:hover {
         padding-top: 40px;
         width: 84px;
     }
+
+    .navOverlay a {
+        padding-top: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 601px) {
@@ -156,6 +160,7 @@ li a:hover {
 
     .navOverlay a {
         font-size: 3.5rem;
+        padding-top: 2rem;
     }
 
     .navOverlay .closeBtn {
@@ -174,6 +179,7 @@ li a:hover {
 
     .navOverlay a {
         font-size: 4rem;
+        padding-top: 2rem;
     }
 
     .navOverlay .closeBtn {
