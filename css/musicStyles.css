@@ -130,6 +130,7 @@ ol li {
         font-size: 2rem;
         text-align: center;
         display: flex;
+        padding-top: 12px;
     }
 
     h4 {
