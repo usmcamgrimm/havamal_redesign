@@ -122,47 +122,12 @@ ol li {
 @media screen and (max-width: 600px) {
     h2 {
         margin: 0 auto;
-        padding-top: 10px;
-    }
-
-    body {
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .album {
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .albumContainer {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        margin: 0 auto;
-        padding: 1rem 2rem;
-    }
-
-    .albumTFY {
-        max-width: 300px;
-        height: auto;
-        margin: 0 auto;
-        margin-top: 5rem;
-        padding: 12px 0;
-    }
-
-    .albumCOTN {
-        max-width: 300px;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    h2 {
+        padding-top: 12px;
         font-size: 2rem;
     }
 
     h3 {
-        font-size: 1.7rem;
+        font-size: 2rem;
         text-align: center;
         display: flex;
     }
@@ -172,13 +137,36 @@ ol li {
     }
 
     hr {
-        margin: 0 auto;
-        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .album {
+        padding: 1rem;
+    }
+
+    .albumContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0;
+        height: 100%;
+        padding: 0;
+    }
+
+    .albumTFY {
+        align-self: center;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .albumCOTN {
+        align-self: center;
+        max-width: 350px;
+        height: auto;
     }
 
     .trackList {
         font-size: 1.2rem;
-        padding-bottom: 1rem;
+        padding: 10px;
     }
 }
 
