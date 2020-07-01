@@ -25,7 +25,8 @@
 }
 
 /* !Section for the BAND photos */
-.bandGallery, .bandPreview {
+.bandGallery,
+.bandPreview {
     margin: 0 auto;
 }
 
@@ -55,8 +56,29 @@
         font-size: 2rem;
     }
 
-    .band-preview img {
-        max-width: 400px;
+    .bandPreviewFull {
+        display: none;
+    }
+
+    .bandPreview img {
+        width: 390px;
         height: auto;
+    }
+
+    img {
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    .bandPreviewFull {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .bandPreviewMob {
+        display: none;
     }
 }
