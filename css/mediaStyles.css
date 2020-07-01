@@ -23,3 +23,26 @@
         height: 100%;
     }
 }
+
+/* !Section for the BAND photos */
+.bandGallery, .bandPreview {
+    margin: 0 auto;
+}
+
+.bandThumbs img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+}
+
+.bandThumbs img:hover {
+    border: 4px solid #66add9;
+    cursor:pointer;
+}
+
+.bandPreview img {
+    border: 4px solid #030303;
+    padding: 1px;
+    width: 800px;
+}
