@@ -188,3 +188,17 @@ li a:hover {
         font-size: 108px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    h2 {
+        margin: 0 auto;
+        padding-top: 12px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1360px) and (min-width: 769px) {
+    h2 {
+        font-size: 3rem;
+    }
+}
