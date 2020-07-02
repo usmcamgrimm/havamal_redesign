@@ -25,60 +25,19 @@
 }
 
 /* !Section for the BAND photos */
-.bandGallery,
-.bandPreview {
-    margin: 0 auto;
+.bandPhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.bandThumbs img {
-    height: 80px;
-    border: 4px solid #555;
-    padding: 1px;
-    margin: 0 10px 10px 0;
-}
-
-.bandThumbs img:hover {
-    border: 4px solid #66add9;
-    cursor: crosshair;
-}
-
-.bandPreview img {
-    border: 4px solid #030303;
-    padding: 1px;
-    max-width: 600px;
+.theHW {
+    max-width: 300px;
     height: auto;
 }
 
-@media screen and (max-width: 600px) {
-    h2 {
-        margin: 0 auto;
-        padding-top: 12px;
-        font-size: 2rem;
-    }
-
-    .bandPreviewFull {
-        display: none;
-    }
-
-    .bandPreview img {
-        width: 390px;
-        height: auto;
-    }
-
-    img {
-        max-width: 300px;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 768px) and (min-width: 601px) {
-    .bandPreviewFull {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .bandPreviewMob {
-        display: none;
-    }
+figcaption {
+    font-family: Mirza;
+    font-size: 1.3rem;
+    color: #fefefe;
 }
