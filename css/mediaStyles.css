@@ -41,3 +41,39 @@ figcaption {
     font-size: 1.3rem;
     color: #fefefe;
 }
+
+/* !Responsive Photo Gallery */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 20%;
+    max-width: 20%;
+    height: auto;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
