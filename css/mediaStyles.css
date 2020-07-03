@@ -47,6 +47,7 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    justify-content: center;
 }
 
 .column {
@@ -58,12 +59,12 @@ figcaption {
 
 .column img {
     margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 601px) {
     .column {
+        margin: 0 auto;
         flex: 50%;
         max-width: 50%;
         height: auto;
