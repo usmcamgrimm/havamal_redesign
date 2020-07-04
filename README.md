@@ -4,5 +4,13 @@
   </a>
 </p>
 <h1 align="center">
-  Hail Havamal
+  Hail Havamal!
 </h1>
+
+## Website for the Swedish band **[HAVAMAL](https://www.facebook.com/Havamalofficial)**
+
+Created with:
+- HTML
+- CSS
+- JavaScript
+- A litle bit of React
