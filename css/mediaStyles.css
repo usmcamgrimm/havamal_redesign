@@ -32,12 +32,22 @@
 .theHW {
     max-width: 300px;
     height: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px #030303;
 }
 
 figcaption {
     font-family: Mirza;
-    font-size: 1.3rem;
-    color: #fefefe;
+    font-size: 1.4rem;
+    color: #66add9;
+    text-shadow: 0 2px 2px #030303;
+}
+
+@media screen and (min-width: 1440px) {
+    .theHW {
+        max-width: 275px;
+        height: auto;
+    }
 }
 
 /* !Responsive Photo Gallery */
