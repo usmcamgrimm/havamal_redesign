@@ -1,31 +1,32 @@
 .albumContainer {
-    padding: 1rem 4rem;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     height: 500px;
-    margin: 0 10rem;
+    margin: 0 200px;
 }
 
 .albumTFY {
     max-width: 450px;
     height: auto;
     display: flex;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .albumCOTN {
     max-width: 450px;
     height: auto;
     display: flex;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .albumInfo {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     align-content: flex-start;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -49,19 +50,8 @@ h4 a {
 }
 
 hr {
-    width: 75%;
+    width: 60%;
     background-color: #c0c0c0;
-}
-
-.trackList {
-    color: #fefefe;
-    font-family: Roboto;
-    font-size: 1.4rem;
-    text-align: left;
-}
-
-ol li {
-    padding-left: 6px;
 }
 
 @media screen and (max-width: 600px) {
@@ -102,11 +92,6 @@ ol li {
         align-self: center;
         max-width: 350px;
         height: auto;
-    }
-
-    .trackList {
-        font-size: 1.2rem;
-        padding: 10px;
     }
 }
 
