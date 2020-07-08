@@ -2,8 +2,9 @@ section#socialMedia {
     margin: 0 auto;
     padding-top: 4rem;
 }
+
 .socLogo img {
-    max-width: 325px;
+    max-width: 375px;
     height: auto;
 }
 
@@ -30,6 +31,7 @@ li img {
 
 .horde {
     margin: 0 auto;
+    width: 700px;
 }
 
 p {
@@ -41,4 +43,24 @@ p {
 a {
     text-decoration: none;
     cursor: pointer;
+}
+
+.contact {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.agrLogo {
+    max-width: 250px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        display: flex;
+        flex-flow: column;
+    }
 }
