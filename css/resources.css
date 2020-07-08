@@ -1,0 +1,19 @@
+.socMedia {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.socMedia ul {
+    padding: 0;
+    display: flex;
+}
+
+.socMedia li {
+    list-style: none;
+    padding: 8px;
+}
+
+li img {
+    border-radius: 6px;
+}
