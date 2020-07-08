@@ -1,3 +1,12 @@
+section#socialMedia {
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+.socLogo img {
+    max-width: 325px;
+    height: auto;
+}
+
 .socMedia {
     display: flex;
     flex-flow: row wrap;
@@ -16,15 +25,20 @@
 
 li img {
     border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(3, 3, 3, 0.6);
+}
+
+.horde {
+    margin: 0 auto;
 }
 
 p {
     font-family: Mirza;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #66add9;
 }
 
 a {
     text-decoration: none;
-    cursor: crosshair;
+    cursor: pointer;
 }
