@@ -8,7 +8,7 @@
 
 html {
     background-color: #000000;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../resources/warriors.jpg') center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../resources/bg2.jpg') center center no-repeat;
     background-size: cover;
     min-height: 100vh;
     text-align: center;
