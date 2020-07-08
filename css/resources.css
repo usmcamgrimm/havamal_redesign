@@ -17,3 +17,14 @@
 li img {
     border-radius: 6px;
 }
+
+p {
+    font-family: Mirza;
+    font-size: 2rem;
+    color: #66add9;
+}
+
+a {
+    text-decoration: none;
+    cursor: crosshair;
+}
