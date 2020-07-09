@@ -29,9 +29,17 @@ li img {
     box-shadow: 0 3px 6px rgba(3, 3, 3, 0.6);
 }
 
+li img:hover {
+    transform: scale(1.1);
+}
+
+.socLinks {
+    max-width: 48px;
+    height: auto;
+}
+
 .horde {
     margin: 0 auto;
-    width: 700px;
 }
 
 p {
