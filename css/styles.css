@@ -147,7 +147,33 @@ li a:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 384px) {
+    .axes {
+        margin: 0 auto;
+        padding-top: 36px;
+        width: 72px;
+    }
+
+    .navLinks a {
+        text-decoration: none;
+        font-family: 'yggdrasilregular';
+        font-size: 2.7rem;
+        color: rgb(0, 85, 155);
+        display: flex;
+        justify-content: center;
+        transition: 0.3s ease-out;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .navOverlay .closeBtn {
+        position: absolute;
+        top: 40px;
+        right: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 385px) {
     .axes {
         margin: 0 auto;
         padding-top: 40px;
