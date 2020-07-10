@@ -46,6 +46,12 @@ h2 {
     margin-bottom: 0;
 }
 
+.saga p {
+    font-family: Mirza;
+    font-size: 1.4rem;
+    color: #fefefe;
+}
+
 /* ?NAV COMPONENTS */
 .navList {
     width: 50%;
