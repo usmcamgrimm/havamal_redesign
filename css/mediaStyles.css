@@ -101,7 +101,7 @@ figcaption {
     width: 100%;
 }
 
-img:hover {
+.gallery img:hover {
     transform: scale(1.5);
     box-shadow: 2px 5px 8px #030303,
         -2px -5px 8px #030303;
