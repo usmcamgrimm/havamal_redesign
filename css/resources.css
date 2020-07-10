@@ -54,12 +54,22 @@ a {
     cursor: pointer;
 }
 
+/* !TEMP! CENTER THIS UNTIL THE CONTACT FORM IS DONE */
+/*
 .contact {
     padding-top: 3rem;
     display: flex;
     justify-content: space-between;
     padding-right: 50px;
     padding-left: 50px;
+}
+*/
+
+.contact {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .agrLogo {
