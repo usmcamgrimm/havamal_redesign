@@ -102,7 +102,7 @@ li a:hover {
 
     .navOverlay {
         height: 0%;
-        width: 100%;
+        width: 100vw;
         position: fixed;
         z-index: 10;
         top: 0;
@@ -115,8 +115,9 @@ li a:hover {
     .navLinks {
         position: relative;
         top: 25%;
-        width: 100%;
+        width: 90%;
         text-align: left;
+        margin: 0;
     }
 
     .navLinks a {
