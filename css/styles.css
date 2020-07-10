@@ -113,11 +113,11 @@ li a:hover {
     }
 
     .navLinks {
-        position: relative;
+        position: absolute;
         top: 25%;
-        width: 90%;
-        text-align: left;
+        width: 100vw;
         margin: 0;
+        padding: 0;
     }
 
     .navLinks a {
@@ -125,9 +125,10 @@ li a:hover {
         font-family: 'yggdrasilregular';
         font-size: 3rem;
         color: rgb(0, 85, 155);
-        text-align: center;
-        display: block;
+        display: flex;
+        justify-content: center;
         transition: 0.3s ease-out;
+        margin-right: 0;
     }
 
     .navOverlay .closeBtn {

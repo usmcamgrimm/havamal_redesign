@@ -40,6 +40,18 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .full {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .video {
+        display: none;
+    }
+}
+
 
 /* !Section for the BAND photos */
 .bandPhotos {
