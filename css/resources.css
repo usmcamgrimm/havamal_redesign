@@ -54,15 +54,34 @@ a {
     cursor: pointer;
 }
 
+/* !Form Controls */
 .contact {
-    padding-top: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 50px;
     margin: 0 auto;
+    margin-top: 4rem;
 }
 
-input,
+.sideLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.agrLogo {
+    max-width: 350px;
+    height: auto;
+}
+
+.formGroup {
+    max-width: 400px;
+    padding: 0;
+}
+
+input[type=text],
+input[type=email],
 textarea {
     width: 100%;
     padding: 8px;
@@ -86,18 +105,15 @@ input:focus {
     background-color: rgb(0, 85, 155);
     font-family: Roboto;
     font-size: 1rem;
+    padding: 8px;
     color: #fefefe;
     cursor: pointer;
-}
-
-.agrLogo {
-    max-width: 250px;
-    height: auto;
 }
 
 @media screen and (max-width: 768px) {
     .contact {
         display: flex;
-        flex-flow: column;
+        flex-flow: column nowrap;
+        justify-content: center;
     }
 }
