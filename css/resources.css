@@ -70,13 +70,9 @@ a {
     padding-bottom: 2rem;
 }
 
-.hordeLogo {
-    max-width: 350px;
-    height: auto;
-}
-
+.hordeLogo,
 .agrLogo {
-    max-width: 350px;
+    max-width: 300px;
     height: auto;
 }
 
