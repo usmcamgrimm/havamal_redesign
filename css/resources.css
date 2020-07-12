@@ -118,9 +118,21 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
+
+    /*
     .contact {
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
+    }
+    */
+    .sideLinks {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .agr {
+        padding-top: 1rem;
     }
 }
