@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAVAMAL | RAIDS</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/musicStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background: #0e181f;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="fullNav">
+        <nav>
+            <ul class="navList">
+                <li class="navLinks"><a href="./index.html">Home</a></li>
+                <li class="navLinks"><a href="./music.html">Music</a></li>
+                <li class="navLinks"><a href="./media.html">Media</a></li>
+                <li class="navLinks"><a href="./about.html">Saga</a></li>
+                <li class="navLinks"><a href="#">Raids</a></li>
+                <li class="navLinks"><a href="./resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="mobileNav">
+        <div id="mobNav" class="navOverlay">
+            <a href=javascript:void(0) class="closeBtn" onclick="closeNav()">&times;</a>
+            <div class="navLinks">
+                <a href="./index.html">Home</a>
+                <a href="./music.html">Music</a>
+                <a href="./media.html">Media</a>
+                <a href="./about.html">Saga</a>
+                <a href="#">Raids</a>
+                <a href="./resources.html">Resources</a>
+            </div>
+        </div>
+
+        <span class="axeBtn" onclick="openNav()"><img src="./resources/axes.png" class="axes" /></span>
+    </section>
+
+    <script src="./js/nav.js"></script>
+</body>
+
+</html>
