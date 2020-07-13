@@ -187,13 +187,23 @@ hr {
     margin: 0;
 }
 
-.infoBox a, .mapBox a {
+.infoBox a, 
+.mapBox a {
     text-decoration: none;
 }
 
-.date, .title, .location, .infoBox a, .mapBox a {
+.infoBox a:hover,
+.mapBox a:hover {
+    color: #66add9;
+}
+
+.date, 
+.title, 
+.location, 
+.infoBox a, 
+.mapBox a {
     font-family: Roboto;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #fefefe;
 }
 
@@ -205,4 +215,17 @@ p {
     width: 75%;
     margin-top: 1rem;
     border: 1px solid rgba(127, 127, 127, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+    .raidDiv {
+        border: 1px solid rgba(127, 127, 127, 0.6);
+    }
+    .date, 
+    .title, 
+    .location, 
+    .infoBox a, 
+    .mapBox a {
+        font-size: 1.1rem;
+    }
 }
