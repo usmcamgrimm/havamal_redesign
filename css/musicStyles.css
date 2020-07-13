@@ -218,6 +218,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+    .wrapper {
+        padding-top: 50px;
+    }
     .raidDiv {
         border: 1px solid rgba(127, 127, 127, 0.6);
     }
