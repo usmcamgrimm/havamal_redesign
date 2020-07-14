@@ -70,6 +70,67 @@ a {
     padding-bottom: 2rem;
 }
 
+.formGroup {
+    width: 80%;
+    max-width: 600px;
+    margin: 0;
+    background-color: white;
+}
+
+.formGroup * {
+    box-sizing: border-box;
+}
+
+.form-flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.form-flex li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form-flex>li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.form-flex li label,
+.form-flex li {
+    padding: 8px;
+    font-family: Roboto;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.form-flex>li>label,
+.form-flex li p {
+    flex: 1 0 150px;
+    max-width: 350px;
+}
+
+.form-flex>li>label+* {
+    flex: 1 0 350px;
+}
+
+.form-flex li button {
+    margin-left: auto;
+    padding: 8px 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4469b0;
+    color: #fefefe;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+/* ?TEMP? MAYBE REMOVE */
+/*
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -79,18 +140,21 @@ a {
 input[type=text],
 input[type=email],
 .textInput {
-    max-width: 350px;
+    max-width: 500px;
 }
 
 .submit-button {
-    background-color: #66add9;
+    background-color: #4469b0;
     color: #fefefe;
     padding: 8px;
+    border: none;
+    border-radius: 5px;
 }
 
 input:focus {
     border: 2px solid #66add9;
 }
+*/
 
 .hordeLogo,
 .agrLogo {
