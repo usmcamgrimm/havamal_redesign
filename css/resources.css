@@ -70,6 +70,18 @@ a {
     padding-bottom: 2rem;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    max-width: 350px;
+}
+
 .hordeLogo,
 .agrLogo {
     max-width: 300px;
@@ -81,13 +93,11 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
-    /*
     .contact {
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column;
         justify-content: center;
     }
-    */
 
     .sideLinks {
         display: flex;
