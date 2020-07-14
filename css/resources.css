@@ -66,15 +66,16 @@ a {
 .sideLinks {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 2rem;
 }
 
 .formGroup {
     width: 80%;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0;
-    background-color: white;
+    margin-top: 0;
+    border-radius: 4px;
 }
 
 .formGroup * {
@@ -84,10 +85,14 @@ a {
 .form-flex {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     list-style: none;
     padding: 0;
+}
+
+.form-flex ul {
+    margin-top: 0;
 }
 
 .form-flex li {
@@ -97,15 +102,17 @@ a {
 }
 
 .form-flex>li:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 8px;
 }
 
 .form-flex li label,
 .form-flex li {
-    padding: 8px;
+    padding: 6px;
     font-family: Roboto;
     font-size: 1rem;
+    color: #66add9;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .form-flex>li>label,
@@ -116,6 +123,18 @@ a {
 
 .form-flex>li>label+* {
     flex: 1 0 350px;
+}
+
+.form-flex li p {
+    margin: 0;
+}
+
+.form-flex li input,
+.form-flex li textarea {
+    padding: 12px;
+    font-family: Roboto;
+    border: none;
+    border-radius: 2px;
 }
 
 .form-flex li button {
@@ -129,32 +148,12 @@ a {
     text-transform: uppercase;
 }
 
-/* ?TEMP? MAYBE REMOVE */
-/*
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.form-flex li button:hover {
+    background-color: rgb(0, 85, 155);
+    color: rgb(255, 206, 0);
+    box-shadow: 0 4px 10px #030303;
+    transform: scale(1.02);
 }
-
-input[type=text],
-input[type=email],
-.textInput {
-    max-width: 500px;
-}
-
-.submit-button {
-    background-color: #4469b0;
-    color: #fefefe;
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-}
-
-input:focus {
-    border: 2px solid #66add9;
-}
-*/
 
 .hordeLogo,
 .agrLogo {
@@ -177,5 +176,14 @@ input:focus {
 
     .agr {
         padding-top: 1rem;
+    }
+
+    .form-flex li input,
+    .form-flex li textarea {
+        padding: 12px;
+        font-family: Roboto;
+        border: none;
+        border-radius: 2px;
+        max-width: 325px;
     }
 }
