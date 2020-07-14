@@ -1,157 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HAVAMAL | CONTACT</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/resources.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mirza:wght@500&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <section id="fullNav">
-      <nav>
-        <ul class="navList">
-          <li class="navLinks"><a href="./index.html">Home</a></li>
-          <li class="navLinks"><a href="./music.html">Music</a></li>
-          <li class="navLinks"><a href="./media.html">Media</a></li>
-          <li class="navLinks"><a href="./about.html">Saga</a></li>
-          <li class="navLinks"><a href="./raids.html">Raids</a></li>
-          <li class="navLinks"><a href="#">Resources</a></li>
-        </ul>
-      </nav>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HAVAMAL | CONTACT</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/resources.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@500&family=Roboto&display=swap" rel="stylesheet" />
+</head>
 
-    <section id="mobileNav">
-      <div id="mobNav" class="navOverlay">
-        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()"
-          >&times;</a
-        >
-        <div class="navLinks">
-          <a href="./index.html">Home</a>
-          <a href="./music.html">Music</a>
-          <a href="./media.html">Media</a>
-          <a href="./about.html">Saga</a>
-          <a href="./raids.html">Raids</a>
-          <a href="#">Resources</a>
+<body>
+  <section id="fullNav">
+    <nav>
+      <ul class="navList">
+        <li class="navLinks"><a href="./index.html">Home</a></li>
+        <li class="navLinks"><a href="./music.html">Music</a></li>
+        <li class="navLinks"><a href="./media.html">Media</a></li>
+        <li class="navLinks"><a href="./about.html">Saga</a></li>
+        <li class="navLinks"><a href="./raids.html">Raids</a></li>
+        <li class="navLinks"><a href="#">Resources</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="mobileNav">
+    <div id="mobNav" class="navOverlay">
+      <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+      <div class="navLinks">
+        <a href="./index.html">Home</a>
+        <a href="./music.html">Music</a>
+        <a href="./media.html">Media</a>
+        <a href="./about.html">Saga</a>
+        <a href="./raids.html">Raids</a>
+        <a href="#">Resources</a>
+      </div>
+    </div>
+
+    <span class="axeBtn" onclick="openNav()"><img src="./resources/axes.png" class="axes" /></span>
+  </section>
+
+  <section id="socialMedia">
+    <div class="socLogo">
+      <img src="./resources/havamal_bg.png" />
+    </div>
+    <div class="socMedia">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/Havamalofficial" target="_blank" rel="noreferrer"><img
+              src="./resources/icons/facebook.png" class="socLinks" alt="link to havamal on facebook" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/officialhavamal/" target="_blank" rel="noreferrer"><img
+              src="./resources/icons/instagram.png" class="socLinks" alt="link to havamal on instagram" /></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCmGfesgQAVTgpJqGf9dt3wA/videos" target="_blank"
+            rel="noreferrer"><img src="./resources/icons/youtube.png" class="socLinks"
+              alt="link to havamal on youtube" /></a>
+        </li>
+        <li>
+          <a href="https://havamal.bandcamp.com/" target="_blank" rel="noreferrer"><img
+              src="./resources/icons/bandcamp.png" class="socLinks" alt="link to havamal on bandcamp" /></a>
+        </li>
+        <li>
+          <a href="https://bandbond.com/" target="_blank" rel="noreferrer"><img src="./resources/icons/bandbond.png"
+              class="socLinks" alt="link to the bandbond website" /></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="miscContact">
+    <div class="contact">
+      <div class="sideLinks">
+        <div class="fbGrp">
+          <a href="https://www.facebook.com/groups/338634033565609" target="_blank" rel="noreferrer">
+            <img src="./resources/hoh3.png" class="hordeLogo" alt="hordes of havamal facebook" />
+          </a>
+        </div>
+        <div class="agr">
+          <a href="https://artgatesrecords.com/artists/havamal/" target="_blank" rel="noreferrer">
+            <img src="./resources/AGR-logo.png" class="agrLogo" alt="art gates records" />
+          </a>
         </div>
       </div>
-
-      <span class="axeBtn" onclick="openNav()"
-        ><img src="./resources/axes.png" class="axes"
-      /></span>
-    </section>
-
-    <section id="socialMedia">
-      <div class="socLogo">
-        <img src="./resources/havamal_bg.png" />
+      <!--
+      <div class="formGroup" id="email-form-react">
+        <form class="contact-form" onSubmit="submitForm">
+          <input type="text" id="user_name" name="user_name" placeholder="Your name">
+          <input type="email" id="user_email" name="user_email" placeholder="Email address">
+          <textarea class="textInput" id="message-box" name="mmesage-box"
+            placeholder="Type your message here..."></textarea>
+          <input type="submit" value="Submit" class="submit-button" />
+        </form>
       </div>
-      <div class="socMedia">
-        <ul>
-          <li>
-            <a
-              href="https://www.facebook.com/Havamalofficial"
-              target="_blank"
-              rel="noreferrer"
-              ><img
-                src="./resources/icons/facebook.png"
-                class="socLinks"
-                alt="link to havamal on facebook"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/officialhavamal/"
-              target="_blank"
-              rel="noreferrer"
-              ><img
-                src="./resources/icons/instagram.png"
-                class="socLinks"
-                alt="link to havamal on instagram"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/channel/UCmGfesgQAVTgpJqGf9dt3wA/videos"
-              target="_blank"
-              rel="noreferrer"
-              ><img
-                src="./resources/icons/youtube.png"
-                class="socLinks"
-                alt="link to havamal on youtube"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://havamal.bandcamp.com/"
-              target="_blank"
-              rel="noreferrer"
-              ><img
-                src="./resources/icons/bandcamp.png"
-                class="socLinks"
-                alt="link to havamal on bandcamp"
-            /></a>
-          </li>
-          <li>
-            <a href="https://bandbond.com/" target="_blank" rel="noreferrer"
-              ><img
-                src="./resources/icons/bandbond.png"
-                class="socLinks"
-                alt="link to the bandbond website"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </section>
+      -->
+    </div>
+  </section>
 
-    <section id="miscContact">
-      <div class="contact">
-        <div class="sideLinks">
-          <div class="fbGrp">
-            <a
-              href="https://www.facebook.com/groups/338634033565609"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="./resources/hoh2.png"
-                class="hordeLogo"
-                alt="hordes of havamal facebook"
-              />
-            </a>
-          </div>
-          <div class="agr">
-            <a
-              href="https://artgatesrecords.com/artists/havamal/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="./resources/AGR-logo.png"
-                class="agrLogo"
-                alt="art gates records"
-              />
-            </a>
-          </div>
-        </div>
-        <!--
-            <div class="formGroup" id="email-form-react">
-                <form class="contact-form" onSubmit="submitForm">
-                    <input type="text" id="user_name" name="user_name" placeholder="Your name">
-                    <input type="email" id="user_email" name="user_email" placeholder="Email address">
-                    <textarea class="textInput" id="message-box" name="mmesage-box"
-                        placeholder="Type your message here..."></textarea>
-                    <input type="submit" value="Submit" class="submit-button" />
-                </form>
-            </div>
-            -->
-      </div>
-    </section>
+  <script src="./js/nav.js"></script>
+</body>
 
-    <script src="./js/nav.js"></script>
-  </body>
 </html>
