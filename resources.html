@@ -125,13 +125,15 @@
       emailjs.init('process.env.user_id');
     })();
 
+    const form = document.getElementById('email-form-react')
+
     let emailParams = {
-      user_name: '#user_name',
-      user_email: '#user_email',
-      message: '#message-box'
+      user_name: document.getElementById('user_name'),
+      user_email: document.getElementById('user_email'),
+      message: document.getElementById('message-box')
     }
 
-    emailjs.sendForm('process.env.service_id', 'process.env.template_id', emailParams)
+    emailjs.sendForm('process.env.service_id', 'process.env.template_id', form, emailParams,)
       .then(function(result) {
         console.log('Email sent successfully', result.status, result.text);
       }, function(error) {
