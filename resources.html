@@ -92,9 +92,8 @@
           </a>
         </div>
       </div>
-      <!--
-      <div class="formGroup" id="email-form-react">
-        <form class="contact-form" onsubmit=>
+      <div class="formGroup" id="havamal-contact-form" action="mailto:usmcamgrimm@gmail.com" method="post" enctype="text/plain">
+        <form class="contact-form">
           <ul class="form-flex">
             <li>
               <label for="user_name">Your Name</label>
@@ -119,6 +118,8 @@
   </section>
 
   <script src="./js/nav.js"></script>
+  <!-- !Comment these out until I decide to get back to it -->
+  <!--
   <script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
@@ -126,23 +127,9 @@
     (function () {
       emailjs.init('process.env.user_id');
     })();
-
-    const form = document.getElementById('email-form-react')
-
-    let emailParams = {
-      user_name: document.getElementById('user_name'),
-      user_email: document.getElementById('user_email'),
-      message: document.getElementById('message-box')
-    }
-
-    emailjs.sendForm('process.env.service_id', 'process.env.template_id', form, emailParams,)
-      .then(function(result) {
-        console.log('Email sent successfully', result.status, result.text);
-      }, function(error) {
-        console.log('Error sending email', error)
-      });
-
   </script>
+  -->
+
 </body>
 
 </html>
