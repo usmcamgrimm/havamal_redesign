@@ -128,3 +128,13 @@ figcaption {
         height: auto;
     }
 }
+
+/* Scroll to top button */
+.scroll-button {
+    text-align: right;
+}
+
+.far {
+    font-size: 2rem;
+    color: #fefefe;
+}
