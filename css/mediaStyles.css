@@ -82,6 +82,17 @@ figcaption {
     }
 }
 
+h3 {
+    font-family: Mirza;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #66add9;
+}
+
+.saga {
+    padding: 0 7rem;
+}
+
 /* !Responsive Photo Gallery */
 .row {
     display: flex;
@@ -135,6 +146,7 @@ figcaption {
     color: #fefefe;
     text-shadow: 0 2px 8px #030303;
 }
+
 #scrollButton {
     display: none;
     position: fixed;
@@ -142,6 +154,7 @@ figcaption {
     right: 2rem;
     z-index: 10;
 }
+
 .far:hover {
     color: #66add9;
     text-shadow: 0 3px 10px #030303;
