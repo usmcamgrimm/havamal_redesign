@@ -130,11 +130,19 @@ figcaption {
 }
 
 /* Scroll to top button */
-.scroll-button {
-    text-align: right;
-}
-
 .far {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #fefefe;
+    text-shadow: 0 2px 8px #030303;
+}
+#scrollButton {
+    display: none;
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+    z-index: 10;
+}
+.far:hover {
+    color: #66add9;
+    text-shadow: 0 3px 10px #030303;
 }
