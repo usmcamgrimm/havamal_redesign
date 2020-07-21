@@ -92,6 +92,56 @@ li a:hover {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
+/* !Form Success */
+.successContainer {
+    width: 25%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #66add9;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 2px 4px 16px #030303, -2px -4px 16px #030303;
+}
+
+.successContainer p {
+    font-family: Mirza;
+    font-size: 1.5rem;
+    color: #fefefe;
+}
+
+.successContainer a {
+    text-decoration: none;
+    font-family: Mirza;
+    font-size: 1.2rem;
+    color: #66add9;
+}
+
+@media screen and (max-width: 600px) {
+    .successContainer {
+        width: 60%;
+    }
+    .successContainer p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    .successContainer {
+        width: 60%;
+    }
+    .successContainer p {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .successContainer {
+        width: 70%;
+    }
+}
+
 /* !Mobile Nav Components */
 @media screen and (min-width: 1025px) {
 
