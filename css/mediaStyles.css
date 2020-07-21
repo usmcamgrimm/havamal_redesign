@@ -90,7 +90,9 @@ h3 {
 }
 
 .saga {
-    padding: 0 7rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 3rem;
 }
 
 /* !Responsive Photo Gallery */
