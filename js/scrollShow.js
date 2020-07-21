@@ -1,6 +1,8 @@
 let scrollButton = document.getElementById("scrollButton");
 
-window.onscroll = function() {scrollShow()};
+window.onscroll = function () {
+    scrollShow()
+};
 
 function scrollShow() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
