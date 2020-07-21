@@ -66,8 +66,9 @@ a {
 .sideLinks {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding-bottom: 2rem;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .formGroup {
@@ -172,6 +173,8 @@ a {
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
+        padding-top: 0;
+        padding-bottom: 2rem;
     }
 
     .agr {
