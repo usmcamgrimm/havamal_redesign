@@ -54,21 +54,37 @@ a {
     cursor: pointer;
 }
 
-/* !Form Controls */
-.contact {
+/* !banners */
+.bannerLinks {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+.fbGrp {
+    padding-right: 8px;
+}
+
+.agr {
+    padding-left: 8px;
+}
+
+/* !Form Controls */
+.miscResources {
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     margin: 0 auto;
     padding: 0 2rem;
     margin-top: 4rem;
 }
 
-.sideLinks {
+.news {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    align-items: center;
 }
 
 .formGroup {
@@ -162,19 +178,26 @@ a {
     height: auto;
 }
 
+h3 {
+    font-family: Mirza;
+    font-size: 2rem;
+    color: #66add9;
+}
+
 @media screen and (max-width: 768px) {
-    .contact {
+    .miscResources {
         display: flex;
         flex-flow: column;
         justify-content: center;
     }
 
-    .sideLinks {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        padding-top: 0;
-        padding-bottom: 2rem;
+    .news {
+        width: 90%;
+    }
+
+    .miscResources {
+        margin: 0 auto;
+        left: 0;
     }
 
     .agr {
