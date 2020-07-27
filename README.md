@@ -7,7 +7,7 @@
   Hail Havamal!
 </h1>
 
-## Website for the Swedish band **[HAVAMAL](https://www.facebook.com/Havamalofficial)**
+## Website for the Swedish band **[HAVAMAL](https://havamalband.netlify.app)**
 
 Created with:
 - HTML
