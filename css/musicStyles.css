@@ -166,7 +166,7 @@ hr {
 
 .showInfo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0 auto;
 }
 
@@ -187,7 +187,7 @@ hr {
     margin: 0;
 }
 
-.infoBox a, 
+.infoBox a,
 .mapBox a {
     text-decoration: none;
 }
@@ -197,10 +197,10 @@ hr {
     color: #66add9;
 }
 
-.date, 
-.title, 
-.location, 
-.infoBox a, 
+.date,
+.title,
+.location,
+.infoBox a,
 .mapBox a {
     font-family: Roboto;
     font-size: 1.3rem;
@@ -217,17 +217,86 @@ p {
     border: 1px solid rgba(127, 127, 127, 0.4);
 }
 
+/* ?Styles for the flyer modal */
+#flyer {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    height: auto;
+    overflow: auto;
+    background-color: rgba(14, 34, 21, 0.3);
+}
+
+.flyer-modal {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    color: #fefefe;
+    font-family: Mirza;
+    padding: 12px 0;
+    height: auto;
+}
+
+.flyer-modal,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.5s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.close {
+    position: absolute;
+    top: 1rem;
+    right: 2.2rem;
+    color: #fefefe;
+    font-size: 3rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {
         padding-top: 50px;
     }
+
     .raidDiv {
         border: 1px solid rgba(127, 127, 127, 0.6);
     }
-    .date, 
-    .title, 
-    .location, 
-    .infoBox a, 
+
+    .date,
+    .title,
+    .location,
+    .infoBox a,
     .mapBox a {
         font-size: 1.1rem;
     }

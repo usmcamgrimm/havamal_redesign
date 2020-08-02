@@ -5,11 +5,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158665811-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-158665811-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158665811-1');
     </script>
 
     <meta charset="UTF-8">
@@ -62,6 +65,15 @@
     <section id="raidList">
         <div class="wrapper">
             <div class="showInfo">
+                <div class="showFlyer">
+                    <img id="flyer" src="./resources/jarfalla.jpg" alt="Järfälla Metal Fest"
+                        style="width:100%; max-width:50px">
+                    <div id="flyerModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="flyer-modal" id="flyerImg">
+                        <div id="caption"></div>
+                    </div>
+                </div>
                 <div class="showDetails">
                     <p class="date">29 May 2021</p>
                     <p class="title">Järfälla Metal Fest</p>
@@ -86,9 +98,8 @@
         </div>
     </section>
 
-
-
     <script src="./js/nav.js"></script>
+    <script src="./js/flyerModal.js"></script>
 </body>
 
 </html>
