@@ -284,6 +284,16 @@ p {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+
+    p,
+    p.date,
+    p.title,
+    p.location {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {
         padding-top: 50px;
