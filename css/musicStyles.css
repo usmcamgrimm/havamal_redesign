@@ -226,6 +226,7 @@ p {
     display: none;
     position: fixed;
     z-index: 10;
+    padding-top: 100px;
     left: 0;
     top: 0;
     max-width: 100%;
