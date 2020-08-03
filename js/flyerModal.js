@@ -7,7 +7,7 @@ let captionText = document.getElementById("caption");
 img.onclick = function () {
     flyerModal.style.display = "block";
     modalImg.src = this.src;
-    captionText.innerHTML = this.lastChild;
+    captionText.innerHTML = this.alt;
 }
 
 let span = document.getElementsByClassName("close")[0];
