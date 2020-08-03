@@ -226,13 +226,12 @@ p {
     display: none;
     position: fixed;
     z-index: 10;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     max-width: 100%;
     height: auto;
     overflow: auto;
-    background-color: rgba(14, 34, 21, 0.3);
 }
 
 .flyer-modal {
