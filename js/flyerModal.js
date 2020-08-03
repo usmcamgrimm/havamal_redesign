@@ -13,5 +13,5 @@ img.onclick = function () {
 let span = document.getElementsByClassName("close")[0];
 
 span.onclick = function () {
-    modalImg.style.display = "none";
+    flyerModal.style.display = "none";
 }
