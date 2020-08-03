@@ -292,6 +292,10 @@ p {
     p.location {
         font-size: 1rem;
     }
+
+    .showFlyer {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
