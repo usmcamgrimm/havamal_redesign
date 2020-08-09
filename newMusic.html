@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158665811-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158665811-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAVAMAL | MUSIC</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/musicStyles.css">
+    <link rel="icon" href="resources/icons/tabIcon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background: #0e181f;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="fullNav">
+        <nav>
+            <ul class="navList">
+                <li class="navLinks"><a href="./index.html">Home</a></li>
+                <li class="navLinks"><a href="./music.html">Music</a></li>
+                <li class="navLinks"><a href="./media.html">Media</a></li>
+                <li class="navLinks"><a href="./about.html">Saga</a></li>
+                <li class="navLinks"><a href="#">Raids</a></li>
+                <li class="navLinks"><a href="./resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="mobileNav">
+        <div id="mobNav" class="navOverlay">
+            <a href=javascript:void(0) class="closeBtn" onclick="closeNav()">&times;</a>
+            <div class="navLinks">
+                <a href="./index.html">Home</a>
+                <a href="./music.html">Music</a>
+                <a href="./media.html">Media</a>
+                <a href="./about.html">Saga</a>
+                <a href="#">Raids</a>
+                <a href="./resources.html">Resources</a>
+            </div>
+        </div>
+
+        <span class="axeBtn" onclick="openNav()"><img src="./resources/axes.png" class="axes"
+                alt="crossed axes menu button" /></span>
+    </section>
+
+    <script src="./js/nav.js"></script>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script>
+        require('dotenv').config();
+
+        window.onSpotifyWebPlaybackSDKReady = () => {
+            const token = process.env.SPOTIFY_WEB_ACCESS_API_TOKEN;
+            const player = new Spotify.Player({
+                name: 'Web Playback SDK Quick Start Player',
+                getOAuthToken: cb => {
+                    cb(token);
+                }
+            });
+
+            // Error handling
+            player.addListener('initialization_error', ({
+                message
+            }) => {
+                console.error(message);
+            });
+            player.addListener('authentication_error', ({
+                message
+            }) => {
+                console.error(message);
+            });
+            player.addListener('account_error', ({
+                message
+            }) => {
+                console.error(message);
+            });
+            player.addListener('playback_error', ({
+                message
+            }) => {
+                console.error(message);
+            });
+
+            // Playback status updates
+            player.addListener('player_state_changed', state => {
+                console.log(state);
+            });
+
+            // Ready
+            player.addListener('ready', ({
+                device_id
+            }) => {
+                console.log('Ready with Device ID', device_id);
+            });
+
+            // Not Ready
+            player.addListener('not_ready', ({
+                device_id
+            }) => {
+                console.log('Device ID has gone offline', device_id);
+            });
+
+            // Connect to the player!
+            player.connect();
+        };
+    </script>
+</body>
+
+</html>
