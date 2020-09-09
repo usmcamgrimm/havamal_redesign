@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://havamal.surge.sh">
+  <a href="https://havamalband.com">
     <img alt="Hamal" src="https://i.imgur.com/laowgoL.png" />
   </a>
 </p>
@@ -13,4 +13,3 @@ Created with:
 - HTML
 - CSS
 - JavaScript
-- A litle bit of React
