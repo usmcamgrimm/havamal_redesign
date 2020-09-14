@@ -44,9 +44,9 @@ li img:hover {
 }
 
 p {
-    font-family: Mirza;
-    font-size: 3rem;
-    color: #66add9;
+    font-family: Roboto;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: #fefefe;
 }
 
 a {
@@ -83,7 +83,7 @@ a {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -192,7 +192,7 @@ h3 {
     }
 
     .news {
-        width: 90%;
+        width: 100%;
     }
 
     .miscResources {
