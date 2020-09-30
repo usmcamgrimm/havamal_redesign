@@ -55,13 +55,12 @@
 
 
 /* !Section for the BAND photos */
-section#aboutPhotos {
-    display: flex;
-}
-
 .bandPhotos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+
 }
 
 .theHW {
@@ -71,10 +70,8 @@ section#aboutPhotos {
     box-shadow: 3px 3px 8px #030303;
 }
 
-.container{
+.wrapper{
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     max-width: 300px;
     padding: 12px;
@@ -87,14 +84,14 @@ section#aboutPhotos {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: 0.5s ease;
-    max-width: 300px;
+    width: 100%;
 }
 
-.container:hover .image {
+.wrapper:hover .image {
     opacity: 0.3;
 }
   
-.container:hover .overlay {
+.wrapper:hover .overlay {
     opacity: 1;
 }
   
@@ -107,29 +104,6 @@ section#aboutPhotos {
     text-shadow: 0 2px 2px #030303;
     padding: 4px;
 }
-
-
-/*
-.bandPhotos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.theHW {
-    max-width: 300px;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 3px 3px 8px #030303;
-}
-
-figcaption {
-    font-family: Mirza;
-    font-size: 1.4rem;
-    color: #66add9;
-    text-shadow: 0 2px 2px #030303;
-}
-*/
 
 @media screen and (min-width: 1440px) {
     .theHW {
