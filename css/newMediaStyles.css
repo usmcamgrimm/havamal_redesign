@@ -55,6 +55,66 @@
 
 
 /* !Section for the BAND photos */
+section#aboutPhotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bandPhotos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.theHW {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px #030303;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    padding: 12px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s ease;
+    width: 100%
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.label {
+    font-family: Mirza;
+    font-size: 1.5rem;
+    position: relative;
+    color: #66add9;
+    width: 100%;
+    background-color: rgba(14, 24, 31, 0.8);
+    text-shadow: 0 2px 2px #030303;
+    padding: 4px;
+}
+
+
 /*
 .bandPhotos {
     display: flex;
@@ -96,6 +156,12 @@ h3 {
     padding: 0 3rem;
 }
 */
+h3 {
+    font-family: Mirza;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #66add9;
+}
 
 /* !Responsive Photo Gallery */
 .row {
