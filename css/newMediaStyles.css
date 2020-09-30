@@ -57,16 +57,11 @@
 /* !Section for the BAND photos */
 section#aboutPhotos {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 .bandPhotos {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    justify-content: center;
 }
 
 .theHW {
@@ -81,7 +76,7 @@ section#aboutPhotos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    max-width: 300px;
     padding: 12px;
 }
 
@@ -92,7 +87,7 @@ section#aboutPhotos {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: 0.5s ease;
-    width: 100%
+    max-width: 300px;
 }
 
 .container:hover .image {
@@ -108,7 +103,6 @@ section#aboutPhotos {
     font-size: 1.5rem;
     position: relative;
     color: #66add9;
-    width: 100%;
     background-color: rgba(14, 24, 31, 0.8);
     text-shadow: 0 2px 2px #030303;
     padding: 4px;
@@ -135,6 +129,7 @@ figcaption {
     color: #66add9;
     text-shadow: 0 2px 2px #030303;
 }
+*/
 
 @media screen and (min-width: 1440px) {
     .theHW {
@@ -154,13 +149,6 @@ h3 {
     width: 80%;
     margin: 0 auto;
     padding: 0 3rem;
-}
-*/
-h3 {
-    font-family: Mirza;
-    font-size: 2.5rem;
-    text-align: center;
-    color: #66add9;
 }
 
 /* !Responsive Photo Gallery */
