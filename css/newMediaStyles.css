@@ -109,7 +109,7 @@
 hr.bandMember {
     width: 75%;
     margin: 0 auto;
-    border: 1px solid rgb(255, 206, 0);
+    border: 1px solid #c0c0c0;
     margin-top: 12px;
     margin-bottom: 12px;
 }
@@ -178,6 +178,13 @@ h3 {
         flex: 100%;
         max-width: 100%;
         height: auto;
+    }
+    .bandPhotos {
+        display: flex;
+        width: 100vw;
+    }
+    .theHW {
+        margin-right: 0;
     }
 }
 
