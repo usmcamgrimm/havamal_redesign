@@ -84,7 +84,7 @@
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: 0.5s ease;
-    width: 100%;
+    width: 90%;
 }
 
 .wrapper:hover .image {
@@ -106,7 +106,7 @@
 }
 
 hr.bandMember {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
     border: 1px solid #c0c0c0;
     margin-top: 12px;
