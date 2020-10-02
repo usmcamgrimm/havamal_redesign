@@ -50,6 +50,12 @@ h2 {
     color: #fefefe;
 }
 
+textarea:focus,
+button:focus,
+input:focus {
+    outline: 3px solid #66add9;
+}
+
 /* ?NAV COMPONENTS */
 .navList {
     width: 50%;
