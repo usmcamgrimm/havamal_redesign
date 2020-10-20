@@ -1,3 +1,14 @@
+/*** NAVBAR COLORS ***/
+/*
+BLUE
+#004B87
+RGB: (0 75 135)
+
+YELLOW
+#FFCD00
+RGB: (255 209 0)
+*/
+
 @font-face {
     font-family: 'yggdrasilregular';
     src: url('../resouces/yggdrasil-webfont.woff2') format('woff2'),
