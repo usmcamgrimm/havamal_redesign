@@ -89,6 +89,10 @@ input:focus {
     padding: 4px 8px 8px 8px;
 }
 
+.navLinks:hover {
+    transform: scale(1.17);
+}
+
 li a {
     color: rgb(255, 206, 0);
     text-decoration: none;
@@ -96,12 +100,8 @@ li a {
     font-size: 1.5rem;
 }
 
-li .navLinks:hover {
-    transform: scale(1.15);
-}
-
 li a:hover {
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 /* !Form Success */
