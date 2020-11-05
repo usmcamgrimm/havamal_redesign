@@ -6,21 +6,18 @@
     height: 500px;
     margin: 0 200px;
 }
-
 .albumTFY {
     max-width: 450px;
     height: auto;
     display: flex;
     align-self: center;
 }
-
 .albumCOTN {
     max-width: 450px;
     height: auto;
     display: flex;
     align-self: center;
 }
-
 .albumInfo {
     display: flex;
     flex-flow: column nowrap;
@@ -28,32 +25,27 @@
     align-content: flex-start;
     padding-bottom: 10px;
 }
-
 h3 {
     font-family: Mirza;
     color: #66add9;
     font-size: 3rem;
     margin: 0 auto;
 }
-
 h4 {
     font-family: Roboto;
     color: #fefefe;
     font-size: 1.2rem;
     margin: 0 auto;
 }
-
 h4 a {
     text-decoration: none;
     color: #fefefe;
     cursor: crosshair;
 }
-
 hr {
     width: 55%;
     border: 1px solid rgba(127, 127, 127, 0.6);
 }
-
 @media screen and (max-width: 600px) {
     h3 {
         font-size: 2rem;
@@ -61,19 +53,15 @@ hr {
         display: flex;
         padding-top: 12px;
     }
-
     h4 {
         font-size: 1.1rem;
     }
-
     hr {
         margin-bottom: 1rem;
     }
-
     .album {
         padding: 1rem;
     }
-
     .albumContainer {
         display: flex;
         flex-flow: column nowrap;
@@ -81,81 +69,66 @@ hr {
         height: 100%;
         padding: 0;
     }
-
     .albumTFY {
         align-self: center;
         max-width: 350px;
         height: auto;
     }
-
     .albumCOTN {
         align-self: center;
         max-width: 350px;
         height: auto;
     }
 }
-
 @media screen and (max-width: 768px) and (min-width: 601px) {
     .albumContainer {
         margin: 0 auto;
         padding: 10px;
         height: 450px;
     }
-
     .albumTFY {
         max-width: 400px;
         height: auto;
     }
-
     .albumCOTN {
         max-width: 400px;
         height: auto;
     }
-
     h3 {
         font-size: 2rem;
     }
-
     h4 {
         font-size: 1.2rem;
     }
 }
-
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .album {
         margin-top: 2rem;
     }
-
     .albumContainer {
         margin: 0 4rem;
         padding: 10px;
         height: 450px;
     }
-
     .albumTFY {
         max-width: 450px;
         height: auto;
     }
-
     .albumCOTN {
         max-width: 450px;
         height: auto;
     }
-
     h2 {
         margin: 6px auto;
         font-size: 4rem;
     }
-
     h3 {
         font-size: 3rem;
     }
-
     h4 {
         font-size: 1.2rem;
     }
 }
-
 /* ?This section for RAIDS information */
 .wrapper {
     margin: 0 auto;
@@ -163,13 +136,11 @@ hr {
     padding-top: 100px;
     padding-bottom: 1rem;
 }
-
 .showInfo {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
 }
-
 .showDetails {
     display: flex;
     flex-flow: column;
@@ -178,7 +149,6 @@ hr {
     margin: 0;
     padding: 0;
 }
-
 .miscInfo {
     display: flex;
     flex-direction: column;
@@ -186,17 +156,14 @@ hr {
     padding: 0;
     margin: 0;
 }
-
 .infoBox a,
 .mapBox a {
     text-decoration: none;
 }
-
 .infoBox a:hover,
 .mapBox a:hover {
     color: #66add9;
 }
-
 .date,
 .title,
 .location,
@@ -206,22 +173,18 @@ hr {
     font-size: 1.3rem;
     color: #fefefe;
 }
-
 p {
     margin: 0;
 }
-
 .raidDiv {
     width: 75%;
     margin-top: 1rem;
     border: 1px solid rgba(127, 127, 127, 0.4);
 }
-
 /* ?Styles for the flyer modal */
 #flyer {
     cursor: pointer;
 }
-
 .modal {
     display: none;
     position: fixed;
@@ -233,14 +196,12 @@ p {
     height: auto;
     overflow: auto;
 }
-
 .flyer-modal {
     margin: auto;
     display: block;
     max-width: 100%;
     height: auto;
 }
-
 #caption {
     margin: auto;
     display: block;
@@ -251,23 +212,19 @@ p {
     padding: 12px 0;
     height: auto;
 }
-
 .flyer-modal,
 #caption {
     animation-name: zoom;
     animation-duration: 0.5s;
 }
-
 @keyframes zoom {
     from {
         transform: scale(0)
     }
-
     to {
         transform: scale(1)
     }
 }
-
 .close {
     position: absolute;
     top: 1rem;
@@ -277,36 +234,29 @@ p {
     font-weight: bold;
     transition: 0.3s;
 }
-
 .close:hover,
 .close:focus {
     text-decoration: none;
     cursor: pointer;
 }
-
 @media screen and (max-width: 600px) {
-
     p,
     p.date,
     p.title,
     p.location {
         font-size: 1rem;
     }
-
     .showFlyer {
         display: none;
     }
 }
-
 @media screen and (max-width: 768px) {
     .wrapper {
         padding-top: 50px;
     }
-
     .raidDiv {
         border: 1px solid rgba(127, 127, 127, 0.6);
     }
-
     .date,
     .title,
     .location,

@@ -8,7 +8,6 @@ YELLOW
 #FFCD00
 RGB: (255 209 0)
 */
-
 @font-face {
     font-family: 'yggdrasilregular';
     src: url('../resouces/yggdrasil-webfont.woff2') format('woff2'),
@@ -16,14 +15,12 @@ RGB: (255 209 0)
     font-weight: normal;
     font-style: normal;
 }
-
 html {
     background-color: #000000;
     min-height: 100vh;
     text-align: center;
     font-size: 16px;
 }
-
 .container {
     width: 90vw;
     position: fixed;
@@ -31,12 +28,10 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .logo {
     max-width: 100%;
     height: auto;
 }
-
 h1 {
     font-family: 'yggdrasilregular';
     color: #66add9;
@@ -45,7 +40,6 @@ h1 {
     letter-spacing: 4px;
     text-align: center;
 }
-
 h2 {
     font-family: Mirza;
     font-size: 4rem;
@@ -54,19 +48,16 @@ h2 {
     text-shadow: 0 4px 8px #000000;
     margin-bottom: 0;
 }
-
 .saga p {
     font-family: Mirza;
     font-size: 1.4rem;
     color: #fefefe;
 }
-
 textarea:focus,
 button:focus,
 input:focus {
     outline: 3px solid #66add9;
 }
-
 /* ?NAV COMPONENTS */
 .navList {
     width: 50%;
@@ -83,27 +74,22 @@ input:focus {
     background: linear-gradient(to right, rgba(0, 75, 135, 0.05) 0%, rgba(0, 75, 135, 0.40) 26%, rgba(0, 75, 135, 1) 50%, rgba(0, 75, 135, 0.40) 75%, rgba(0, 75, 135, 0.05) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-
 .navLinks {
     list-style: none;
     padding: 4px 8px 8px 8px;
 }
-
 .navLinks:hover {
     transform: scale(1.17);
 }
-
 li a {
     color: rgb(255, 206, 0);
     text-decoration: none;
     font-family: Mirza;
     font-size: 1.5rem;
 }
-
 li a:hover {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
-
 /* !Form Success */
 .successContainer {
     width: 25%;
@@ -116,20 +102,17 @@ li a:hover {
     padding: 2rem;
     box-shadow: 2px 4px 16px #030303, -2px -4px 16px #030303;
 }
-
 .successContainer p {
     font-family: Mirza;
     font-size: 1.5rem;
     color: #fefefe;
 }
-
 .successContainer a {
     text-decoration: none;
     font-family: Mirza;
     font-size: 1.2rem;
     color: #66add9;
 }
-
 @media screen and (max-width: 600px) {
     .successContainer {
         width: 60%;
@@ -138,7 +121,6 @@ li a:hover {
         font-size: 1.3rem;
     }
 }
-
 @media screen and (max-width: 768px) and (min-width: 601px) {
     .successContainer {
         width: 60%;
@@ -147,13 +129,11 @@ li a:hover {
         font-size: 1.4rem;
     }
 }
-
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .successContainer {
         width: 70%;
     }
 }
-
 /* !Mobile Nav Components */
 @media screen and (min-width: 1025px) {
 
@@ -162,12 +142,10 @@ li a:hover {
         display: none;
     }
 }
-
 @media screen and (max-width: 1024px) {
     nav {
         display: none;
     }
-
     .navOverlay {
         height: 0%;
         width: 100vw;
@@ -179,7 +157,6 @@ li a:hover {
         overflow-y: hidden;
         transition: 0.3s ease;
     }
-
     .navLinks {
         position: absolute;
         top: 25%;
@@ -187,7 +164,6 @@ li a:hover {
         margin: 0;
         padding: 0;
     }
-
     .navLinks a {
         text-decoration: none;
         font-family: 'yggdrasilregular';
@@ -198,7 +174,6 @@ li a:hover {
         transition: 0.3s ease-out;
         margin-right: 0;
     }
-
     .navOverlay .closeBtn {
         position: absolute;
         top: 20px;
@@ -208,14 +183,12 @@ li a:hover {
         text-decoration: none;
     }
 }
-
 @media screen and (max-width: 384px) {
     .axes {
         margin: 0 auto;
         padding-top: 36px;
         width: 72px;
     }
-
     .navLinks a {
         text-decoration: none;
         font-family: 'yggdrasilregular';
@@ -227,64 +200,54 @@ li a:hover {
         margin-right: 0;
         padding: 10px;
     }
-
     .navOverlay .closeBtn {
         position: absolute;
         top: 40px;
         right: 60px;
     }
 }
-
 @media screen and (max-width: 600px) and (min-width: 385px) {
     .axes {
         margin: 0 auto;
         padding-top: 40px;
         width: 84px;
     }
-
     .navOverlay a {
         padding-top: 1.1rem;
     }
 }
-
 @media screen and (max-width: 768px) and (min-width: 601px) {
     .axes {
         margin: 0 auto;
         padding-top: 60px;
         width: 108px;
     }
-
     .navOverlay a {
         font-size: 3.5rem;
         padding-top: 2rem;
     }
-
     .navOverlay .closeBtn {
         top: 60px;
         right: 115px;
         font-size: 96px;
     }
 }
-
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .axes {
         margin: 0 auto;
         padding-top: 75px;
         width: 125px;
     }
-
     .navOverlay a {
         font-size: 4rem;
         padding-top: 2rem;
     }
-
     .navOverlay .closeBtn {
         top: 80px;
         right: 150px;
         font-size: 108px;
     }
 }
-
 @media screen and (max-width: 768px) {
     h2 {
         margin: 0 auto;
@@ -292,7 +255,6 @@ li a:hover {
         font-size: 2rem;
     }
 }
-
 @media screen and (max-width: 1360px) and (min-width: 769px) {
     h2 {
         font-size: 3rem;

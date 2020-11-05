@@ -2,7 +2,6 @@
     position: relative;
     margin-top: 50px;
 }
-
 .video {
     position: absolute;
     top: 0;
@@ -13,7 +12,6 @@
     height: 50%;
     margin: 0 auto;
 }
-
 @media screen and (max-width: 1024px) and (min-width: 769px) {
     .vidContainer {
         position: relative;
@@ -21,39 +19,32 @@
         margin-top: 50px;
         margin-bottom: 0;
     }
-
     .video {
         width: 95%;
         height: 95%;
     }
 }
-
 @media screen and (max-width: 768px) {
     .vidContainer {
         position: relative;
         padding-bottom: 56.25%;
         margin-top: 50px;
     }
-
     .video {
         width: 100%;
         height: 100%;
     }
 }
-
 @media screen and (max-width: 1024px) {
     .full {
         display: none;
     }
 }
-
 @media screen and (min-width: 1025px) {
     .video {
         display: none;
     }
 }
-
-
 /* !Section for the BAND photos */
 .bandPhotos {
     display: flex;
@@ -61,7 +52,6 @@
     justify-content: center;
     width: 100%;
 }
-
 .theHW {
     max-width: 300px;
     height: auto;
@@ -69,14 +59,12 @@
     box-shadow: 3px 3px 8px #030303;
     margin-right: 1rem;
 }
-
 .wrapper{
     position: relative;
     justify-content: center;
     max-width: 300px;
     padding: 12px;
 }
-
 .overlay {
     position: absolute;
     top: 50%;
@@ -86,15 +74,12 @@
     transition: 0.5s ease;
     width: 90%;
 }
-
 .wrapper:hover .image {
     opacity: 0.3;
 }
-  
 .wrapper:hover .overlay {
     opacity: 1;
 }
-  
 .label {
     font-family: Mirza;
     font-size: 1.5rem;
@@ -104,7 +89,6 @@
     text-shadow: 0 2px 2px #030303;
     padding: 4px;
 }
-
 hr.bandMember {
     width: 70%;
     margin: 0 auto;
@@ -112,40 +96,34 @@ hr.bandMember {
     margin-top: 12px;
     margin-bottom: 12px;
 }
-
 .mobBandPhotos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .mobHW {
     max-width: 300px;
     height: auto;
     border-radius: 5px;
     box-shadow: 3px 3px 8px #030303;
 }
-
 @media screen and (min-width: 1440px) {
     .theHW {
         max-width: 275px;
         height: auto;
     }
 }
-
 h3 {
     font-family: Mirza;
     font-size: 2.5rem;
     text-align: center;
     color: #66add9;
 }
-
 .saga {
     width: 80%;
     margin: 0 auto;
     padding: 0 3rem;
 }
-
 /* !Responsive Photo Gallery */
 .row {
     display: flex;
@@ -153,29 +131,24 @@ h3 {
     padding: 0 4px;
     justify-content: center;
 }
-
 .column {
     flex: 20%;
     max-width: 20%;
     height: auto;
     padding: 0 4px;
 }
-
 .column img {
     margin-top: 8px;
     width: 100%;
 }
-
 .gallery img:hover {
     transform: scale(1.5);
     box-shadow: 2px 5px 8px #030303,
         -2px -5px 8px #030303;
 }
-
 .full-image img:hover {
     transform: scale(0);
 }
-
 @media screen and (max-width: 768px) and (min-width: 601px) {
     .column {
         margin: 0 auto;
@@ -184,7 +157,6 @@ h3 {
         height: auto;
     }
 }
-
 @media screen and (max-width: 600px) {
     .column {
         flex: 100%;
@@ -204,7 +176,6 @@ h3 {
         text-shadow: 0 2px 2px #030303;
     }
 }
-
 @media screen and (min-width: 601px) {
     .mobBandPhotos {
         display: none;
@@ -213,14 +184,12 @@ h3 {
         display: none;
     }
 }
-
 /* Scroll to top button */
 .far {
     font-size: 2.3rem;
     color: #66add9;
     text-shadow: 0 2px 8px #030303;
 }
-
 #scrollButton {
     display: none;
     position: fixed;
@@ -228,12 +197,10 @@ h3 {
     right: 2rem;
     z-index: 10;
 }
-
 .far:hover {
     color: #fefefe;
     text-shadow: 0 3px 10px #030303;
 }
-
 @media screen and (max-width: 600px) {
     .far {
         color: #fefefe;

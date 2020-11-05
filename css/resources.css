@@ -2,58 +2,47 @@ section#socialMedia {
     margin: 0 auto;
     padding-top: 4rem;
 }
-
 .socLogo img {
     max-width: 375px;
     height: auto;
 }
-
 .socMedia {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
-
 .socMedia ul {
     padding: 0;
     display: flex;
 }
-
 .socMedia li {
     list-style: none;
     padding: 8px;
 }
-
 li img {
     border-radius: 6px;
     box-shadow: 0 3px 6px rgba(3, 3, 3, 0.6);
 }
-
 li img:hover {
     transform: scale(1.2);
     box-shadow: 0 4px 8px rgba(3, 3, 3, 0.8);
 }
-
 .socLinks {
     max-width: 48px;
     height: auto;
 }
-
 .horde {
     margin: 0 auto;
 }
-
 p {
     font-family: Roboto;
     font-size: clamp(1rem, 2vw, 1.2rem);
     color: #fefefe;
 }
-
 a {
     text-decoration: none;
     cursor: pointer;
 }
-
 /* !banners */
 .bannerLinks {
     display: flex;
@@ -61,15 +50,12 @@ a {
     justify-content: center;
     padding: 1rem;
 }
-
 .fbGrp {
     padding-right: 8px;
 }
-
 .agr {
     padding-left: 8px;
 }
-
 /* !Form Controls */
 .miscResources {
     display: flex;
@@ -79,7 +65,6 @@ a {
     padding: 0 2rem;
     margin-top: 4rem;
 }
-
 .news {
     width: 50%;
     display: flex;
@@ -87,11 +72,9 @@ a {
     justify-content: flex-start;
     align-items: center;
 }
-
 .newsContainer {
     line-height: 1;
 }
-
 .formGroup {
     width: 80%;
     max-width: 400px;
@@ -99,11 +82,9 @@ a {
     margin-top: 0;
     border-radius: 4px;
 }
-
 .formGroup * {
     box-sizing: border-box;
 }
-
 .form-flex {
     display: flex;
     flex-wrap: wrap;
@@ -112,21 +93,17 @@ a {
     list-style: none;
     padding: 0;
 }
-
 .form-flex ul {
     margin-top: 0;
 }
-
 .form-flex li {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
-
 .form-flex>li:not(:last-child) {
     margin-bottom: 8px;
 }
-
 .form-flex li label,
 .form-flex li {
     padding: 6px;
@@ -136,21 +113,17 @@ a {
     text-transform: uppercase;
     text-align: left;
 }
-
 .form-flex>li>label,
 .form-flex li p {
     flex: 1 0 150px;
     max-width: 350px;
 }
-
 .form-flex>li>label+* {
     flex: 1 0 350px;
 }
-
 .form-flex li p {
     margin: 0;
 }
-
 .form-flex li input,
 .form-flex li textarea {
     padding: 12px;
@@ -158,7 +131,6 @@ a {
     border: none;
     border-radius: 2px;
 }
-
 .form-flex li button {
     margin-left: auto;
     padding: 8px 1rem;
@@ -169,46 +141,38 @@ a {
     font-family: Roboto;
     text-transform: uppercase;
 }
-
 .form-flex li button:hover {
     background-color: rgb(0, 85, 155);
     color: rgb(255, 206, 0);
     box-shadow: 0 4px 10px #030303;
     transform: scale(1.02);
 }
-
 .hordeLogo,
 .agrLogo {
     max-width: 325px;
     height: auto;
 }
-
 h3 {
     font-family: Mirza;
     font-size: 2rem;
     color: #66add9;
 }
-
 @media screen and (max-width: 768px) {
     .miscResources {
         display: flex;
         flex-flow: column;
         justify-content: center;
     }
-
     .news {
         width: 100%;
     }
-
     .miscResources {
         margin: 0 auto;
         left: 0;
     }
-
     .agr {
         padding-top: 1rem;
     }
-
     .form-flex li input,
     .form-flex li textarea {
         padding: 12px;
