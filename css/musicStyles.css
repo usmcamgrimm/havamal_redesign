@@ -26,7 +26,7 @@
     padding-bottom: 10px;
 }
 h3 {
-    font-family: Mirza;
+    font-family: Grenze;
     color: #66add9;
     font-size: 3rem;
     margin: 0 auto;
@@ -34,6 +34,7 @@ h3 {
 h4 {
     font-family: Roboto;
     color: #fefefe;
+    font-weight: normal;
     font-size: 1.2rem;
     margin: 0 auto;
 }

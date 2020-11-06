@@ -41,15 +41,16 @@ h1 {
     text-align: center;
 }
 h2 {
-    font-family: Mirza;
+    font-family: 'Pirata One';
     font-size: 4rem;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    font-weight: normal;
     color: #fefefe;
     text-shadow: 0 4px 8px #000000;
     margin-bottom: 0;
 }
 .saga p {
-    font-family: Mirza;
+    font-family: Grenze;
     font-size: 1.4rem;
     color: #fefefe;
 }
@@ -84,7 +85,7 @@ input:focus {
 li a {
     color: rgb(255, 206, 0);
     text-decoration: none;
-    font-family: Mirza;
+    font-family: Grenze;
     font-size: 1.5rem;
 }
 li a:hover {
@@ -136,7 +137,6 @@ li a:hover {
 }
 /* !Mobile Nav Components */
 @media screen and (min-width: 1025px) {
-
     .axeBtn,
     .navOverlay {
         display: none;

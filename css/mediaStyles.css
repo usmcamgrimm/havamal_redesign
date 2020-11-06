@@ -81,7 +81,7 @@
     opacity: 1;
 }
 .label {
-    font-family: Mirza;
+    font-family: Grenze;
     font-size: 1.5rem;
     position: relative;
     color: #66add9;
@@ -114,7 +114,7 @@ hr.bandMember {
     }
 }
 h3 {
-    font-family: Mirza;
+    font-family: 'Grenze';
     font-size: 2.5rem;
     text-align: center;
     color: #66add9;
@@ -170,7 +170,7 @@ h3 {
         display: none;
     }
     figcaption {
-        font-family: Mirza;
+        font-family: Roboto;
         font-size: 1.4rem;
         color: #66add9;
         text-shadow: 0 2px 2px #030303;
