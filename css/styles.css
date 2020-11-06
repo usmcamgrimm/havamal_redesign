@@ -24,14 +24,18 @@ html {
 .container {
     width: 90vw;
     position: fixed;
-    top: 78%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.logo {
+    max-width: 100%;
+    height: auto;
+}
 h1 {
     font-family: 'yggdrasilregular';
-    color: #ce1126;
-    text-shadow: 0 4px 12px #000000;
+    color: #66add9;
+    text-shadow: 0 4px 8px #000000;
     font-size: 3rem;
     letter-spacing: 4px;
     text-align: center;
