@@ -171,9 +171,9 @@ li a {
     }
     .navLinks a {
         text-decoration: none;
-        font-family: 'yggdrasilregular';
+        font-family: 'beowulf';
         font-size: 2.7rem;
-        color: rgb(0, 85, 155);
+        color: #ce1126;
         display: flex;
         justify-content: center;
         transition: 0.3s ease-out;
