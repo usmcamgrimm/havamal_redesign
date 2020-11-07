@@ -46,7 +46,7 @@ h2 {
 textarea:focus,
 button:focus,
 input:focus {
-    outline: 3px solid #66add9;
+    outline: 3px solid #ce1126;
 }
 /* ?NAV COMPONENTS */
 .navList {
