@@ -1,12 +1,5 @@
-/*** NAVBAR COLORS ***/
 /*
-BLUE
-#004B87
-RGB: (0 75 135)
-
-YELLOW
-#FFCD00
-RGB: (255 209 0)
+https://mycolor.space/?hex=%23CE1126&sub=1
 */
 @font-face {
     font-family: 'beowulf';
@@ -63,13 +56,6 @@ input:focus {
     display: flex;
     justify-content: space-around;
     line-height: 1;
-    border-radius: 15px;
-    background: -moz-linear-gradient(left, rgba(0, 75, 135, 0.25) 0%, rgba(0, 75, 135, 0.5) 26%, rgba(0, 75, 135, 1) 50%, rgba(0, 75, 135, 0.5) 75%, rgba(0, 75, 135, 0.25) 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(0, 75, 135, 0.25) 0%, rgba(0, 75, 135, 0.5) 26%, rgba(0, 75, 135, 1) 50%, rgba(0, 75, 135, 0.5) 75%, rgba(0, 75, 135, 0.25) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(0, 75, 135, 0.05) 0%, rgba(0, 75, 135, 0.40) 26%, rgba(0, 75, 135, 1) 50%, rgba(0, 75, 135, 0.40) 75%, rgba(0, 75, 135, 0.05) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .navLinks {
     list-style: none;
@@ -79,13 +65,11 @@ input:focus {
     transform: scale(1.17);
 }
 li a {
-    color: rgb(255, 206, 0);
+    color: #fefefe;
     text-decoration: none;
-    font-family: Grenze;
-    font-size: 1.5rem;
-}
-li a:hover {
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    font-family: beowulf;
+    /* font-family: Grenze'; */
+    font-size: 2.25rem;
 }
 /* !Form Success */
 .successContainer {
@@ -162,9 +146,9 @@ li a:hover {
     }
     .navLinks a {
         text-decoration: none;
-        font-family: 'yggdrasilregular';
+        font-family: 'beowulf';
         font-size: 3rem;
-        color: rgb(0, 85, 155);
+        color: #ce1126;
         display: flex;
         justify-content: center;
         transition: 0.3s ease-out;
