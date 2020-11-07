@@ -84,10 +84,11 @@
     font-family: Grenze;
     font-size: 1.5rem;
     position: relative;
-    color: #66add9;
-    background-color: rgba(14, 24, 31, 0.8);
+    color: #ce1126;
+    background-color: rgba(11,0,0,0.8);
     text-shadow: 0 2px 2px #030303;
-    padding: 4px;
+    width: 94.5%;
+    border-radius: 4px;
 }
 hr.bandMember {
     width: 70%;
@@ -117,7 +118,7 @@ h3 {
     font-family: 'Grenze';
     font-size: 2.5rem;
     text-align: center;
-    color: #66add9;
+    color: #ce1126;
 }
 .saga {
     width: 80%;
