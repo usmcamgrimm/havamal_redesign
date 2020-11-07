@@ -9,9 +9,8 @@ YELLOW
 RGB: (255 209 0)
 */
 @font-face {
-    font-family: 'yggdrasilregular';
-    src: url('../resouces/yggdrasil-webfont.woff2') format('woff2'),
-        url('../resources/yggdrasil-webfont.woff') format('woff');
+    font-family: 'beowulf';
+    src: url('../resources/beowulf.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,10 +28,11 @@ html {
     transform: translate(-50%, -50%);
 }
 h1 {
-    font-family: 'yggdrasilregular';
+    font-family: 'beowulf';
     color: #ce1126;
     text-shadow: 0 4px 12px #000000;
-    font-size: 3rem;
+    font-size: 5rem;
+    font-weight: normal;
     letter-spacing: 4px;
     text-align: center;
 }
