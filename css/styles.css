@@ -31,7 +31,7 @@ h1 {
     font-family: 'beowulf';
     color: #ce1126;
     text-shadow: 0 4px 12px #000000;
-    font-size: 5rem;
+    font-size: clamp(2.175rem, 5vw, 5rem);
     font-weight: normal;
     letter-spacing: 4px;
     text-align: center;
